@@ -10,13 +10,13 @@ body {
 
 h1 {
 	text-align: center;
-	padding: 5% 0% 3%;
-	font-size: 1.75em;
+	padding: 2% 0% 4%;
+	font-size: 175%;
 }
 
 .row {
-
 	width: 100%;
+	padding: 0 20px;
 }
 
 
@@ -24,11 +24,8 @@ h1 {
 	position: relative;
 	border: 1px solid black;
 	background-color: #a39d9d;
-	margin: auto;
-	width: 95%;
 	padding: 40px 10px 10px;
-	margin-bottom: 10px;
-	font-size: 1em;
+	font-size: 100%;
 }
 
 .section-title {
@@ -39,9 +36,13 @@ h1 {
 	border-bottom: 1px solid black;
 }
 
+section{
+	padding: 0 10px 15px;
+}
+
 h2 {
 	padding: 3px 20px;
-	font-size: 1.25em;
+	font-size: 125%;
 }
 
 #title1 {
@@ -143,4 +144,3 @@ h2 {
 	  }
 
 }
-
