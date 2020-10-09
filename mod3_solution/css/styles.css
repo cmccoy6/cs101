@@ -1,0 +1,13 @@
+body {
+	font-family: 'Fresca', sans-serif; 
+}
+
+.navbar {
+	background-color: #bbedc4;
+}
+
+#logo {
+	color: black;
+	margin: 5px 10px;
+
+}
