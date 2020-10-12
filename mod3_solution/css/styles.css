@@ -5,14 +5,12 @@ body {
 .navbar {
 	background-color: #bbedc4;
 	padding: 0;
+	box-shadow: 2px 2px 5px #888;
 }
 
 .navbar-nav {
 	background-color: #dcf7e6;
-}
-
-.navbar-toggler {
-	margin-right: 20px;
+	box-shadow: 2px 2px 5px #888;
 }
 
 #logo {
@@ -20,12 +18,35 @@ body {
 	margin: 5px 20px;
 }
 
+.navbar-toggler {
+	margin-right: 20px;
+	box-shadow: 1px 1px 2px #888;
+}
+
+hr {
+	display: block;
+	margin: .25em;
+	border-style: inset;
+	border-width: 2px;
+}
+
 h2 {
 	margin: 10px 0px;
+	text-shadow: 1px 1px 2px #888;
+}
+
+h3 {
+	text-shadow: 1px 1px 1px #888;
+}
+
+.item-container {
+	padding: 0px 10px 10px;
+	margin: 0px;
 }
 
 .menu-item {
 	background-color: #bbedc4;
 	padding: 10px;
 	margin-bottom: 10px;
+	box-shadow: 2px 2px 5px #888;
 }
